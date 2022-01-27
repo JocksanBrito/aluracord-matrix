@@ -56,6 +56,7 @@ export default function PaginaInicial() {
             styleSheet={{
               display: 'flex',
               alignItems: 'center',
+              opacity: 0.9,
               justifyContent: 'space-between',
               flexDirection: {
                 xs: 'column',
@@ -99,7 +100,7 @@ export default function PaginaInicial() {
               <TextField
                 value={username}
                 onChange={ function handle(event) {
-                  console.log("Usuário digitou", event.target.value);
+                  //console.log("Usuário digitou", event.target.value);
                   //onde está a variável/valor?
                   const valor = event.target.value;
                   //trocar o valor da variável
